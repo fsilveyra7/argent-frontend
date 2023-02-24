@@ -1,0 +1,253 @@
+/** START GENERAL **/
+body {
+    background-color: rgba(211, 211, 211, 0.726);
+
+}
+
+.container {
+    height: auto;
+    font-size: 2vw;
+}
+
+h1, h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn.btn-warning{
+    padding: 0 15px 0 15px;
+    font-size: 12px;
+    font-weight: bold;
+    border-width: 10px;
+}
+
+/** END GENERAL **/
+
+/** START HEADER **/
+header {
+    background-color: black;
+    height: 60px;
+}
+
+.header-divs {
+    border: 1px solid white;
+}
+
+header h1 {
+    font-size: 2em;
+    color: white;
+    float: left;
+    position: relative;
+    left: 10%;
+    top: 15%
+}
+
+#phone-button {
+    float: right;
+    position: relative;
+    right: 10%;
+    top: 28%;
+}
+
+#phone-icon {
+    color: yellow;
+}
+
+#phone-number {
+    color: white;
+}
+/** END HEADER **/
+
+/** START FIRST CONTENT **/
+#first-content {
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
+}
+#first-content .content-holder {
+    text-transform: uppercase;
+    font-size: .7em;
+}
+#first-content .first-line {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#first-content .second-line {
+    font-size: 3em;
+    color: #084c64;
+    letter-spacing: .1em;
+}
+#first-content .third-line {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#first-content button {
+    text-transform: uppercase;
+}
+
+
+
+
+/** END FIRST CONTENT **/
+
+/** START SECOND CONTENT **/
+#second-content {
+    background-color: #054e6e;
+    position: relative;
+    color: white;
+    padding: 50px;
+}
+#second-content .content-holder {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+#second-content .first-line {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    
+}
+#second-content hr {
+    width: 30%;
+    margin: 0 auto 30px auto;
+
+}
+#second-content .input-holder {
+    margin: auto;
+    float: none;
+    display: inline-block;
+    text-align: center;
+}
+#second-content .input-holder .form-control {
+    width: 30%;
+    margin: 10px;
+}
+#second-content .btn {
+    clear: both;
+    position: relative;
+    float: none;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+
+/** END SECOND CONTENT **/
+
+/** START THIRD CONTENT **/
+#third-content {
+    background-color: white;
+    padding: 100px 100px 100px 100px;
+}
+#third-content h1{
+    color: #054e6e;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#third-content hr{
+    width: 50px;
+}
+#third-content h2{
+    color: #054e6e;
+    font-size: 24px;
+}
+#third-content p{
+    font-size: 14px;
+}
+/** END THIRD CONTENT **/
+
+/** START FOURTH CONTENT **/
+#fourth-content {
+    background-color: rgb(234, 234, 234);
+    padding: 100px 100px 100px 100px;
+}
+#fourth-content h1{
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+#fourth-content hr{
+    width: 100px;
+}
+#fourth-content #logo-holder{
+    margin: 70px 0 0 0;
+}
+/** END FOURTH CONTENT **/
+
+/** START FIFTH CONTENT **/
+#fifth-content {
+    background-color: white;
+    padding: 100px 0px 100px 0px;
+}
+#fifth-content img{
+    width: 60%;
+    margin: 0px 0px 20px 0px;
+}
+#fifth-content h1{
+    margin: 0 0 20px 0;
+    color: #054e6e;
+    letter-spacing: 1px;
+    font-size: 24px;
+}
+/** END FIFTH CONTENT **/
+
+/** START SIXTH CONTENT **/
+#sixth-content {
+    background-color: #054e6e;
+    padding: 100px 100px 100px 100px;
+}
+#sixth-content h1{
+    color: white;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+#sixth-content p{
+    color: white;
+    font-size: 14px;
+    font-style: italic;
+}
+
+/** END SIXTH CONTENT **/
+
+/** START FOOTER **/
+.page-footer {
+    background-color: #1d1d1d;
+    color: white;
+    padding: 20px 0 5px 0;
+}
+/** END FOOTER **/
+
+
+
+/********** Extra Large devices only **********/
+@media (min-width: 1200px) {
+    #first-content {
+        background-image: url('../images/wire_rope_1140.jpg');
+        height: 641px;
+    }
+  }
+
+/********** Large devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+    #first-content {
+        background-image: url('../images/wire_rope_960.jpg');
+        height: 540px;
+    }
+  }
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    #first-content {
+        background-image: url('../images/wire_rope_720.jpg');
+        height: 405px;
+    }
+  }
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+    #first-content {
+        background-image: url('../images/wire_rope_540.jpg');
+        height: 304px;
+    }
+  }
+
